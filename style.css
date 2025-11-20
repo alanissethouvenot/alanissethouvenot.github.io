@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "GeneralSans";
+    src: url("GeneralSans-Variable.woff2") format ("woff2");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 254, 250);
+    line-height: 1.5;
+    font-family: "General Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+    font-family: "Terminal Grotesque";
+    src: url("terminal-grotesque-webfont.woff2") format ("woff2");
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p{
+    max-width: 600px;
+}
+
+/* header */
+
+.header{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header a{
+    text-decoration:underline; 
+    color:currentColor;
+    font-size: 20px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    gap:12px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(49, 15, 16);
+    font-size: 20px ;
+    background: rgb(235, 234, 230);
+}
+
+.nav a span{
+    display: block;
+    padding: 12px;
+}
+
+
+/***********
+page projet
+***********/
+
+.projet h1{
+    font-size: 20px;
+}
+
+.projet{
+    background: rgb(255, 254, 250);
+}
