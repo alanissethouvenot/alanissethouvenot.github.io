@@ -1,14 +1,14 @@
 @font-face {
         font-family: "General Sans";
-        src: url("GeneralSans-Variable.woff2") format ("woff2");
+        src: url("GeneralSans-Variable.woff2");
         }
 @font-face {
         font-family: "General Sans Medium";
-        src: url("GeneralSans-Medium.woff2") format ("woff2");
+        src: url("GeneralSans-Medium.woff2");
         }    
 @font-face {
         font-family: "General Sans Bold";
-        src: url("GeneralSans-Bold.woff2") format ("woff2");
+        src: url("GeneralSans-Bold.woff2");
         }          
 @font-face {
     font-family: "Boska Black";
@@ -26,7 +26,7 @@
 body{
     background: rgb(255,254,250);
     line-height: 1.5;
-    font-family: "General Sans", sans-serif;
+    font-family: "General Sans";
     font-optical-sizing: auto;
 }
 
