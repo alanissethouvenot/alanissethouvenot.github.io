@@ -212,7 +212,7 @@ rose : color:rgb(255,153 236)
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 0 auto;}
 
@@ -220,25 +220,47 @@ rose : color:rgb(255,153 236)
     .grid {
         display: flex !important;
         flex-wrap: wrap !important;
+        justify-content: center;
     }
 }
 
-.txtprojet{
-    color: rgb(255, 153,236);
-    max-width: 600px;
-    font-size: 20px;
-    font-family: "General Sans Medium";
-    padding: 10px 0px 10px 0px;
-    border-bottom: 1.5px solid rgb(255, 153,236);
-    border-top: 1.5px solid rgb(255, 153,236);
+.editorial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.editorial-text {
+  display: inline-block;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "General Sans Medium";
+  border: 1px solid #000;
+  background-color: #f7f7f3;
+  text-align: left;
+  max-width: 42ch;
 }
 
-.txtprojet a{
-    color: rgb(255, 153,236);
-    font-family: "General Sans Medium";
+.editorial-text a {
+    font-family: "General Sans Medium";    
+    font-size: 16px;
     text-decoration: underline;
-    display: inline;
 }
+
+.editorial-text a:hover{
+    color: rgb(255, 153, 236);
+}
+
+.titre {
+    display: block;
+    font-family: "Boska Bold";
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+    padding: 0px 0px 10px 0px;
+    max-width: 100%;
+    margin: 0px 0px 15px;
+}
+
 
 .footer {
     font-size: 10px;
@@ -418,3 +440,7 @@ rose : color:rgb(255,153 236)
     object-fit: cover;
     display: block;
 }
+
+
+
+
